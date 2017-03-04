@@ -22,6 +22,7 @@ namespace DistPassCracker
             Console.ReadKey();
         }
 
+        //Test method
         static void CrackerThread()
         {
             //TEST af thread component.

@@ -5,6 +5,11 @@ namespace DistPassCracker.Handlers
 {
     public class PasswordFileHandler
     {
+        /// <summary>
+        /// Loads in a passwordfile by filename
+        /// </summary>
+        /// <param name="filename"></param>
+        /// <returns></returns>
         public static List<Userinfo> ReadPasswordFile(string filename)
         {
             List<Userinfo> result = new List<Userinfo>();

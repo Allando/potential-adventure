@@ -6,6 +6,12 @@ namespace DistPassCracker.Handlers
 {
     public class StringUtility
     {
+        /// <summary>
+        /// Capitalizes the inputtet string
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentNullException"></exception>
         public static string Capitalize(string str)
         {
             if (str == null) throw new ArgumentNullException("str");
@@ -16,7 +22,12 @@ namespace DistPassCracker.Handlers
 
             return firstLetterUppercase + theRest;
         }
-
+        /// <summary>
+        /// Reverses the inputtet string
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentNullException"></exception>
         public static string Reverse(string str)
         {
             if (str == null) throw new ArgumentNullException("str");

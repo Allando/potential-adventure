@@ -22,6 +22,7 @@ namespace DistPassCracker.Handlers
 
             return firstLetterUppercase + theRest;
         }
+
         /// <summary>
         /// Reverses the inputtet string
         /// </summary>

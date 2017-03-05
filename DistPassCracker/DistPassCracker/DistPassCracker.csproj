@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Handlers\CrackingHandler.cs" />
     <Compile Include="Handlers\DictionaryHandler.cs" />
     <Compile Include="Handlers\ThreadHandler.cs" />
     <Compile Include="Model\DecryptedUserinfo.cs" />

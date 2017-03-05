@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System;
+using System.Security.Cryptography;
 
 namespace DistPassCracker.Handlers
 {
@@ -26,6 +27,26 @@ namespace DistPassCracker.Handlers
             //TODO: Implement the cracking method
             //Maybe utilizing something like the ThreadHandler here would be viable?
 
+            //Registering start time, and end time
+            DateTime startTime =  DateTime.Now;
+            /*
+            These needs to be seperated by the cracking method, and then measured up against eachother
+            this way we make figure out exactly how long it took the cracking method to run.
+            */
+            DateTime endTime = DateTime.Now;
+            string timeTaken = TimeCalculation(startTime, endTime);
+
+        }
+        /// <summary>
+        /// Calculates elapsed time between 2 giving DateTimes. First start then end.
+        /// </summary>
+        /// <param name="start"></param>
+        /// <param name="end"></param>
+        /// <returns></returns>
+        public string TimeCalculation(DateTime start, DateTime end)
+        {
+            TimeSpan elapsedTime = end - start;
+            return $"Time taken: {elapsedTime}";
         }
     }
 }

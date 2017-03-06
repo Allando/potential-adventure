@@ -10,26 +10,56 @@ namespace DistPassCracker.Handlers
     {
         //TODO: Handle how the dictionary is split and distributed.
 
-        private static Random rng = new Random();
+        //private static Random rng = new Random();
 
         public static List<string> DictList;
+
+        public static List<string> PartialListOne;
+        public static List<string> PartialListTwo;
+        public static List<string> PartialListThree;
+        public static List<string> PartialListFour;
+        public static List<string> PartialListFive;
+
+        public static char[] _alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+
+
 
         public DictionaryHandler()
         {
             DictList = new List<string>(File.ReadAllLines("webster-dictionary"));
         }
 
-        public static void Shuffle<T>(IList<T> list)
+        public static List<string> LetterSplitter(List<string> dictionary)
         {
-            int n = list.Count;
-            while (n > 1)
+            int x = 0;
+            for (int i = 0; i < dictionary.Count; i++)
             {
-                n--;
-                int k = rng.Next(n + 1);
-                T value = list[k];
-                list[k] = list[n];
-                list[n] = value;
+                ++x;
+                if (dictionary[i].StartsWith(_alphabet[x].ToString()) || x >= _alphabet.Length) LetterQuery(_alphabet[x]);
+                if (x == _alphabet.Length) break;
             }
+            return null;
         }
+
+        private static List<string> LetterQuery(char letter)
+        {
+            List<string> Result = new List<string>();
+            var query = DictList.Where(x => x.StartsWith(letter.ToString()));
+            foreach (var item in query) Result.Add(item);
+            return Result;
+        }
+
+//        public static void Shuffle<T>(IList<T> list)
+//        {
+//            int n = list.Count;
+//            while (n > 1)
+//            {
+//                n--;
+//                int k = rng.Next(n + 1);
+//                T value = list[k];
+//                list[k] = list[n];
+//                list[n] = value;
+//            }
+//        }
     }
 }

@@ -40,15 +40,21 @@ namespace DistPassCracker
 //            {
 //                tasks[i] = Task.Run(() => Console.WriteLine($"Task {i} has finished successfully"));
 //            }
-            int x = 0;
-            Task[] ts = new Task[10];
-            for (int i = 0; i < 10; i++)
+//            int x = 0;
+//            Task[] ts = new Task[10];
+//            for (int i = 0; i < 10; i++)
+//            {
+//                ts[i] = Task.Run(() => CrackerMethod(i));
+//                ts[i].Wait();
+//                x = i;
+//            }
+//            Console.WriteLine(x);
+            var wordList = DictionaryHandler.DictList;
+
+            foreach (var l in )
             {
-                ts[i] = Task.Run(() => CrackerMethod(i));
-                ts[i].Wait();
-                x = i;
+
             }
-            Console.WriteLine(x);
         }
 
         //Test method

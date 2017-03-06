@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Security.Cryptography;
 
 namespace DistPassCracker.Handlers
@@ -37,6 +38,16 @@ namespace DistPassCracker.Handlers
             string timeTaken = TimeCalculation(startTime, endTime);
 
         }
+
+        private static bool CompareBytes(IList<byte> firstArray, IList<byte> secondArray)
+        {
+            if (firstArray.Count != secondArray.Count) return false;
+            for (int i = 0; i < firstArray.Count; i++)
+            {
+                if (firstArray[i] != secondArray[i]) return false;
+            }
+        }
+
         /// <summary>
         /// Calculates elapsed time between 2 giving DateTimes. First start then end.
         /// </summary>

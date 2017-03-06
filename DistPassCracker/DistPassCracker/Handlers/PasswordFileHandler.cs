@@ -28,5 +28,20 @@ namespace DistPassCracker.Handlers
                 return result;
             }
         }
+
+        public void PossiblePasswordsLogger()
+        {
+            var lines = new List<string>();
+            var path = ""; //Use generic filepath
+
+            using (var file = new StreamWriter(@path))
+            {
+                Console.WriteLine("Writing results to ", path);
+                foreach (var l in lines)
+                {
+                    file.WriteLine(l);
+                }
+            }
+        }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace DistPassCracker
 {
-    public class Userinfo
+    public class EncryptedUserInfo
     {
         /// <summary>
         /// Overall this is just a standard class. Made with the mvvm pattern in mind.
@@ -12,7 +12,7 @@ namespace DistPassCracker
         public byte[] EncryptedPass { get; set; }
 
 
-        public Userinfo(string username, string encryptedPassBase64)
+        public EncryptedUserInfo(string username, string encryptedPassBase64)
         {
             if (username == null) throw new ArgumentNullException("username");
             if (encryptedPassBase64 == null) throw new ArgumentNullException("encryptedPass");

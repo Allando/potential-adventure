@@ -2,7 +2,7 @@
 
 namespace DistPassCracker
 {
-    public class DecryptedUserinfor
+    public class DecryptedUserinfo
     {
         /// <summary>
         /// Basic unectrypted version of the userinfo from file.
@@ -10,7 +10,7 @@ namespace DistPassCracker
         public string Username { get; set; }
         public string Password { get; set; }
 
-        public DecryptedUserinfor(string username, string password)
+        public DecryptedUserinfo(string username, string password)
         {
             if (username == null) throw new ArgumentNullException("username");
             if (password == null) throw new ArgumentNullException("password");

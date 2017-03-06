@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace DistPassCracker.Handlers
@@ -10,9 +11,9 @@ namespace DistPassCracker.Handlers
         /// </summary>
         /// <param name="filename"></param>
         /// <returns></returns>
-        public static List<Userinfo> ReadPasswordFile(string filename)
+        public static List<EncryptedUserInfo> ReadPasswordFile(string filename)
         {
-            List<Userinfo> result = new List<Userinfo>();
+            List<EncryptedUserInfo> result = new List<EncryptedUserInfo>();
 
             FileStream fs = new FileStream(filename, FileMode.Open, FileAccess.Read);
             using (StreamReader sr = new StreamReader(fs))
@@ -21,7 +22,7 @@ namespace DistPassCracker.Handlers
                 {
                     string line = sr.ReadLine();
                     string[] parts = line.Split(":".ToCharArray());
-                    Userinfo usrinf = new Userinfo(parts[0], parts[1]);
+                    EncryptedUserInfo usrinf = new EncryptedUserInfo(parts[0], parts[1]);
                     result.Add(usrinf);
                 }
                 return result;

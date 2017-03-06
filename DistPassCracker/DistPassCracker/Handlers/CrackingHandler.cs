@@ -1,5 +1,9 @@
 ﻿using System;
+using System.IO;
+using System.Diagnostics;
+using Microsoft.Adapters.AdapterUtilities;
 using System.Collections.Generic;
+using System.Linq;
 using System.Security.Cryptography;
 
 namespace DistPassCracker.Handlers
@@ -39,6 +43,78 @@ namespace DistPassCracker.Handlers
 
         }
 
+        /// <summary>
+        /// Alters the word in the dictionary then encrypts it, to then compare to the target password.
+        /// </summary>
+        /// <param name="dictionaryEntry"></param>
+        /// <param name="userInfos"></param>
+        /// <returns></returns>
+        private List<DecryptedUserinfo> CheckWordWithVariations(string dictionaryEntry, List<EncryptedUserInfo> userInfos)
+        {
+            //TODO: Check whether the password has removed all consonants and vocals.
+            List<DecryptedUserinfo> result = new List<DecryptedUserinfo>();
+
+
+            //Check plain word
+            string possiblePassword = dictionaryEntry;
+            List<DecryptedUserinfo> partialResult = CheckSingleWord(userInfos, possiblePassword);
+            result.AddRange(partialResult);
+
+            //Checks all capital letters.
+            possiblePassword = dictionaryEntry.ToUpper();
+            partialResult = CheckSingleWord(userInfos, possiblePassword);
+            result.AddRange(partialResult);
+
+            //Checks capitalized first letter.
+            possiblePassword = dictionaryEntry.First().ToString().ToUpper();
+            partialResult = CheckSingleWord(userInfos, possiblePassword);
+            result.AddRange(partialResult);
+
+            //Checks a reversed password.
+            possiblePassword = ReverseString(dictionaryEntry);
+            partialResult = CheckSingleWord(userInfos, possiblePassword);
+            result.AddRange(partialResult);
+
+            //Checks if the password has a digit at the end.
+            for (int i = 0; i < 100; i++)
+            {
+                possiblePassword = dictionaryEntry + i;
+                partialResult = CheckSingleWord(userInfos, possiblePassword);
+                result.AddRange(partialResult);
+            }
+
+            //Checks if the password has a digit at the start
+            for (int i = 0; i < 100; i++)
+            {
+                possiblePassword = i + dictionaryEntry;
+                partialResult = CheckSingleWord(userInfos, possiblePassword);
+                result.AddRange(partialResult);
+            }
+            //checks if the password has a digit at the end and the start.
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    possiblePassword = i + dictionaryEntry + j;
+                    partialResult = CheckSingleWord(userInfos, possiblePassword);
+                    result.AddRange(partialResult);
+                }
+            }
+            return result;
+        }
+
+        private List<DecryptedUserinfo> CheckSingleWord(List<EncryptedUserInfo> userInfos, string possiblePassword)
+        {
+
+            return null;
+        }
+
+        /// <summary>
+        /// Validates whether the password has been found.
+        /// </summary>
+        /// <param name="firstArray"></param>
+        /// <param name="secondArray"></param>
+        /// <returns></returns>
         private static bool CompareBytes(IList<byte> firstArray, IList<byte> secondArray)
         {
             if (firstArray.Count != secondArray.Count) return false;
@@ -47,6 +123,13 @@ namespace DistPassCracker.Handlers
                 if (firstArray[i] != secondArray[i]) return false;
             }
             return true;
+        }
+
+        private string ReverseString(string s)
+        {
+            char[] chars = s.ToCharArray();
+            Array.Reverse(chars);
+            return chars.ToString();
         }
 
         /// <summary>

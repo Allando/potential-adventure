@@ -28,17 +28,47 @@ namespace DistPassCracker
 //            CrackingHandler cracker = new CrackingHandler();
 //            Console.WriteLine(cracker.TimeCalculation(start, end));
 //            Console.ReadKey();
+
+            //Task Example
+//            Task t = Task.Run(() =>
+//            {
+//                CrackerThread();
+//            });
+
+//            Task[] tasks = new Task[3];
+//            for (int i = 0; i < 3; i++)
+//            {
+//                tasks[i] = Task.Run(() => Console.WriteLine($"Task {i} has finished successfully"));
+//            }
+            int x = 0;
+            Task[] ts = new Task[10];
+            for (int i = 0; i < 10; i++)
+            {
+                ts[i] = Task.Run(() => CrackerMethod(i));
+                ts[i].Wait();
+                x = i;
+            }
+            Console.WriteLine(x);
         }
 
         //Test method
-        static void CrackerThread()
+        static async void CrackerMethod()
         {
             //TEST af thread component.
             //TODO: Functionality, basically doing some dictionary handling and so on.
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine("Womble is a faggot");
-            }
+//            for (int i = 0; i < 10; i++)
+//            {
+//                Console.WriteLine("Womble is a faggot");
+//            }
+
+            int c = 12 + 12;
+            Console.WriteLine(c);
+        }
+
+        static async void CrackerMethod(int i)
+        {
+            int c = i + 13;
+            Console.WriteLine(c);
         }
     }
 }

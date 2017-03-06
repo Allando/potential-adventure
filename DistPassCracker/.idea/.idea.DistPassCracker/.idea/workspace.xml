@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="771cdf23-7d2d-4895-875f-d9735080cf87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DistPassCracker/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DistPassCracker/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs" afterPath="$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs" />
     </list>
     <ignored path="$PROJECT_DIR$/DistPassCracker/bin/" />
@@ -21,20 +20,18 @@
       <file leaf-file-name="DictionaryHandler.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+            <state relative-caret-position="739">
+              <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
               <folding>
-                <marker date="1488808034000" expanded="true" signature="6:109" ph="..." />
-                <marker date="1488808034000" expanded="true" signature="145:2445" ph="{...}" />
-                <marker date="1488808034000" expanded="true" signature="182:2443" ph="{...}" />
-                <marker date="1488808034000" expanded="true" signature="197:309" ph="/* TODO: Handle how the dictionary is split and distributed. ... */" />
-                <marker date="1488808034000" expanded="true" signature="751:853" ph="{...}" />
-                <marker date="1488808034000" expanded="true" signature="863:1145" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-                <marker date="1488808034000" expanded="true" signature="1218:1559" ph="{...}" />
-                <marker date="1488808034000" expanded="true" signature="1306:1524" ph="{...}" />
-                <marker date="1488808034000" expanded="true" signature="1568:1790" ph="/// Finds all entries with the letter specified in the parameter ... " />
-                <marker date="1488808034000" expanded="true" signature="1851:2088" ph="{...}" />
-                <marker date="1488808034000" expanded="true" signature="2090:2437" ph="/* public static void Shuffle&lt;T&gt;(IList&lt;T&gt; list) ... */" />
+                <marker date="1488809657305" expanded="true" signature="6:109" ph="..." />
+                <marker date="1488809657305" expanded="true" signature="145:2043" ph="{...}" />
+                <marker date="1488809657305" expanded="true" signature="182:2041" ph="{...}" />
+                <marker date="1488809657305" expanded="true" signature="698:800" ph="{...}" />
+                <marker date="1488809657305" expanded="true" signature="810:1092" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+                <marker date="1488809657305" expanded="true" signature="1165:1506" ph="{...}" />
+                <marker date="1488809657305" expanded="true" signature="1253:1471" ph="{...}" />
+                <marker date="1488809657305" expanded="true" signature="1515:1737" ph="/// Finds all entries with the letter specified in the parameter ... " />
+                <marker date="1488809657305" expanded="true" signature="1798:2035" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -46,18 +43,18 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1488804984000" expanded="true" signature="6:49" ph="..." />
-                <marker date="1488804984000" expanded="true" signature="85:1853" ph="{...}" />
-                <marker date="1488804984000" expanded="true" signature="120:1851" ph="{...}" />
-                <marker date="1488804984000" expanded="true" signature="278:364" ph="/// Constructor for the cracking handler. ... " />
-                <marker date="1488804984000" expanded="true" signature="397:701" ph="{...}" />
-                <marker date="1488804984000" expanded="true" signature="561:691" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-                <marker date="1488804984000" expanded="true" signature="711:788" ph="/// Runs the cracking algorithm. ... " />
-                <marker date="1488804984000" expanded="true" signature="822:1417" ph="{...}" />
-                <marker date="1488804984000" expanded="true" signature="845:1019" ph="/* TODO: Implement the cracking method ... */" />
-                <marker date="1488804984000" expanded="true" signature="1080:1293" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-                <marker date="1488804984000" expanded="true" signature="1426:1660" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-                <marker date="1488804984000" expanded="true" signature="1728:1845" ph="{...}" />
+                <marker date="1488808228031" expanded="true" signature="6:49" ph="..." />
+                <marker date="1488808228031" expanded="true" signature="85:1853" ph="{...}" />
+                <marker date="1488808228031" expanded="true" signature="120:1851" ph="{...}" />
+                <marker date="1488808228031" expanded="true" signature="278:364" ph="/// Constructor for the cracking handler. ... " />
+                <marker date="1488808228031" expanded="true" signature="397:701" ph="{...}" />
+                <marker date="1488808228031" expanded="true" signature="561:691" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+                <marker date="1488808228031" expanded="true" signature="711:788" ph="/// Runs the cracking algorithm. ... " />
+                <marker date="1488808228031" expanded="true" signature="822:1417" ph="{...}" />
+                <marker date="1488808228031" expanded="true" signature="845:1019" ph="/* TODO: Implement the cracking method ... */" />
+                <marker date="1488808228031" expanded="true" signature="1080:1293" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+                <marker date="1488808228031" expanded="true" signature="1426:1660" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+                <marker date="1488808228031" expanded="true" signature="1728:1845" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,18 +63,18 @@
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DistPassCracker/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+            <state relative-caret-position="393">
+              <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
               <folding>
-                <marker date="1488805307000" expanded="true" signature="6:209" ph="..." />
-                <marker date="1488805307000" expanded="true" signature="236:2332" ph="{...}" />
-                <marker date="1488805307000" expanded="true" signature="256:2330" ph="{...}" />
-                <marker date="1488805307000" expanded="true" signature="302:1784" ph="{...}" />
-                <marker date="1488805307000" expanded="true" signature="325:1657" ph="/* Threading example ... */" />
-                <marker date="1488805307000" expanded="true" signature="1745:1774" ph="{...}" />
-                <marker date="1488805307000" expanded="true" signature="1849:2194" ph="{...}" />
-                <marker date="1488805307000" expanded="true" signature="1872:2120" ph="/* TEST af thread component. ... */" />
-                <marker date="1488805307000" expanded="true" signature="2242:2324" ph="{...}" />
+                <marker date="1488809478956" expanded="true" signature="6:209" ph="..." />
+                <marker date="1488809478956" expanded="true" signature="236:2332" ph="{...}" />
+                <marker date="1488809478956" expanded="true" signature="256:2330" ph="{...}" />
+                <marker date="1488809478956" expanded="true" signature="302:1784" ph="{...}" />
+                <marker date="1488809478956" expanded="true" signature="325:1657" ph="/* Threading example ... */" />
+                <marker date="1488809478956" expanded="true" signature="1745:1774" ph="{...}" />
+                <marker date="1488809478956" expanded="true" signature="1849:2194" ph="{...}" />
+                <marker date="1488809478956" expanded="true" signature="1872:2120" ph="/* TEST af thread component. ... */" />
+                <marker date="1488809478956" expanded="true" signature="2242:2324" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -97,8 +94,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="y" value="27" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -124,46 +122,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DistPassCracker (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DistPassCracker" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DistPassCracker (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DistPassCracker" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DistPassCracker (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DistPassCracker" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Handlers" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,6 +163,18 @@
       <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
     </list>
   </component>
+  <component name="RuntimeDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -237,7 +207,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10592000" />
+    <option name="totallyTimeSpent" value="10604000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -249,28 +219,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16849817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16849817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -290,58 +275,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <marker date="1488808034000" expanded="true" signature="6:109" ph="..." />
-            <marker date="1488808034000" expanded="true" signature="145:2445" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="182:2443" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="197:309" ph="/* TODO: Handle how the dictionary is split and distributed. ... */" />
-            <marker date="1488808034000" expanded="true" signature="751:853" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="863:1145" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488808034000" expanded="true" signature="1218:1559" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="1306:1524" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="1568:1790" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488808034000" expanded="true" signature="1851:2088" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="2090:2437" ph="/* public static void Shuffle&lt;T&gt;(IList&lt;T&gt; list) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488808034000" expanded="true" signature="6:109" ph="..." />
-            <marker date="1488808034000" expanded="true" signature="145:2445" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="182:2443" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="197:309" ph="/* TODO: Handle how the dictionary is split and distributed. ... */" />
-            <marker date="1488808034000" expanded="true" signature="751:853" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="863:1145" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488808034000" expanded="true" signature="1218:1559" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="1306:1524" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="1568:1790" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488808034000" expanded="true" signature="1851:2088" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="2090:2437" ph="/* public static void Shuffle&lt;T&gt;(IList&lt;T&gt; list) ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DistPassCracker/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
-          <folding>
-            <marker date="1488805307000" expanded="true" signature="6:209" ph="..." />
-            <marker date="1488805307000" expanded="true" signature="236:2332" ph="{...}" />
-            <marker date="1488805307000" expanded="true" signature="256:2330" ph="{...}" />
-            <marker date="1488805307000" expanded="true" signature="302:1784" ph="{...}" />
-            <marker date="1488805307000" expanded="true" signature="325:1657" ph="/* Threading example ... */" />
-            <marker date="1488805307000" expanded="true" signature="1745:1774" ph="{...}" />
-            <marker date="1488805307000" expanded="true" signature="1849:2194" ph="{...}" />
-            <marker date="1488805307000" expanded="true" signature="1872:2120" ph="/* TEST af thread component. ... */" />
-            <marker date="1488805307000" expanded="true" signature="2242:2324" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="6:109" ph="..." />
+            <marker date="1488809657305" expanded="true" signature="145:2043" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="182:2041" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="698:800" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="810:1092" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1488809657305" expanded="true" signature="1165:1506" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1253:1471" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1515:1737" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1488809657305" expanded="true" signature="1798:2035" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -351,38 +296,222 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488804984000" expanded="true" signature="6:49" ph="..." />
-            <marker date="1488804984000" expanded="true" signature="85:1853" ph="{...}" />
-            <marker date="1488804984000" expanded="true" signature="120:1851" ph="{...}" />
-            <marker date="1488804984000" expanded="true" signature="278:364" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488804984000" expanded="true" signature="397:701" ph="{...}" />
-            <marker date="1488804984000" expanded="true" signature="561:691" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488804984000" expanded="true" signature="711:788" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488804984000" expanded="true" signature="822:1417" ph="{...}" />
-            <marker date="1488804984000" expanded="true" signature="845:1019" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488804984000" expanded="true" signature="1080:1293" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488804984000" expanded="true" signature="1426:1660" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488804984000" expanded="true" signature="1728:1845" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="6:49" ph="..." />
+            <marker date="1488808228031" expanded="true" signature="85:1853" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="120:1851" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="278:364" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488808228031" expanded="true" signature="397:701" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="561:691" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488808228031" expanded="true" signature="711:788" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488808228031" expanded="true" signature="822:1417" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="845:1019" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488808228031" expanded="true" signature="1080:1293" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488808228031" expanded="true" signature="1426:1660" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488808228031" expanded="true" signature="1728:1845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+          <folding>
+            <marker date="1488809478956" expanded="true" signature="6:209" ph="..." />
+            <marker date="1488809478956" expanded="true" signature="236:2332" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="256:2330" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="302:1784" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="325:1657" ph="/* Threading example ... */" />
+            <marker date="1488809478956" expanded="true" signature="1745:1774" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="1849:2194" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="1872:2120" ph="/* TEST af thread component. ... */" />
+            <marker date="1488809478956" expanded="true" signature="2242:2324" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        <state relative-caret-position="210">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <marker date="1488808034000" expanded="true" signature="6:109" ph="..." />
-            <marker date="1488808034000" expanded="true" signature="145:2445" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="182:2443" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="197:309" ph="/* TODO: Handle how the dictionary is split and distributed. ... */" />
-            <marker date="1488808034000" expanded="true" signature="751:853" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="863:1145" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488808034000" expanded="true" signature="1218:1559" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="1306:1524" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="1568:1790" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488808034000" expanded="true" signature="1851:2088" ph="{...}" />
-            <marker date="1488808034000" expanded="true" signature="2090:2437" ph="/* public static void Shuffle&lt;T&gt;(IList&lt;T&gt; list) ... */" />
+            <marker date="1488809657305" expanded="true" signature="6:109" ph="..." />
+            <marker date="1488809657305" expanded="true" signature="145:2043" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="182:2041" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="698:800" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="810:1092" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1488809657305" expanded="true" signature="1165:1506" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1253:1471" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1515:1737" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1488809657305" expanded="true" signature="1798:2035" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488809657305" expanded="true" signature="6:109" ph="..." />
+            <marker date="1488809657305" expanded="true" signature="145:2043" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="182:2041" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="698:800" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="810:1092" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1488809657305" expanded="true" signature="1165:1506" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1253:1471" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1515:1737" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1488809657305" expanded="true" signature="1798:2035" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <folding>
+            <marker date="1488809478956" expanded="true" signature="6:209" ph="..." />
+            <marker date="1488809478956" expanded="true" signature="236:2332" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="256:2330" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="302:1784" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="325:1657" ph="/* Threading example ... */" />
+            <marker date="1488809478956" expanded="true" signature="1745:1774" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="1849:2194" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="1872:2120" ph="/* TEST af thread component. ... */" />
+            <marker date="1488809478956" expanded="true" signature="2242:2324" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/CrackingHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488808228031" expanded="true" signature="6:49" ph="..." />
+            <marker date="1488808228031" expanded="true" signature="85:1853" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="120:1851" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="278:364" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488808228031" expanded="true" signature="397:701" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="561:691" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488808228031" expanded="true" signature="711:788" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488808228031" expanded="true" signature="822:1417" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="845:1019" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488808228031" expanded="true" signature="1080:1293" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488808228031" expanded="true" signature="1426:1660" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488808228031" expanded="true" signature="1728:1845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="73" selection-end-column="11" />
+          <folding>
+            <marker date="1488809657305" expanded="true" signature="6:109" ph="..." />
+            <marker date="1488809657305" expanded="true" signature="145:2043" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="182:2041" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="698:800" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="810:1092" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1488809657305" expanded="true" signature="1165:1506" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1253:1471" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1515:1737" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1488809657305" expanded="true" signature="1798:2035" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <marker date="1488809657305" expanded="true" signature="6:109" ph="..." />
+            <marker date="1488809657305" expanded="true" signature="145:2043" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="182:2041" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="698:800" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="810:1092" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1488809657305" expanded="true" signature="1165:1506" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1253:1471" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1515:1737" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1488809657305" expanded="true" signature="1798:2035" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488809657305" expanded="true" signature="6:109" ph="..." />
+            <marker date="1488809657305" expanded="true" signature="145:2043" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="182:2041" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="698:800" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="810:1092" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1488809657305" expanded="true" signature="1165:1506" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1253:1471" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1515:1737" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1488809657305" expanded="true" signature="1798:2035" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <folding>
+            <marker date="1488809478956" expanded="true" signature="6:209" ph="..." />
+            <marker date="1488809478956" expanded="true" signature="236:2332" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="256:2330" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="302:1784" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="325:1657" ph="/* Threading example ... */" />
+            <marker date="1488809478956" expanded="true" signature="1745:1774" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="1849:2194" ph="{...}" />
+            <marker date="1488809478956" expanded="true" signature="1872:2120" ph="/* TEST af thread component. ... */" />
+            <marker date="1488809478956" expanded="true" signature="2242:2324" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/CrackingHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488808228031" expanded="true" signature="6:49" ph="..." />
+            <marker date="1488808228031" expanded="true" signature="85:1853" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="120:1851" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="278:364" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488808228031" expanded="true" signature="397:701" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="561:691" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488808228031" expanded="true" signature="711:788" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488808228031" expanded="true" signature="822:1417" ph="{...}" />
+            <marker date="1488808228031" expanded="true" signature="845:1019" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488808228031" expanded="true" signature="1080:1293" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488808228031" expanded="true" signature="1426:1660" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488808228031" expanded="true" signature="1728:1845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <marker date="1488809657305" expanded="true" signature="6:109" ph="..." />
+            <marker date="1488809657305" expanded="true" signature="145:2043" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="182:2041" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="698:800" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="810:1092" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1488809657305" expanded="true" signature="1165:1506" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1253:1471" ph="{...}" />
+            <marker date="1488809657305" expanded="true" signature="1515:1737" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1488809657305" expanded="true" signature="1798:2035" ph="{...}" />
           </folding>
         </state>
       </provider>

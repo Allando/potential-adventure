@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Diagnostics;
-using Microsoft.Adapters.AdapterUtilities;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;

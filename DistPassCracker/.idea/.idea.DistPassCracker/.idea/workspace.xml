@@ -4,9 +4,6 @@
     <list default="true" id="771cdf23-7d2d-4895-875f-d9735080cf87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DistPassCracker/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DistPassCracker/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DistPassCracker/Handlers/CrackingHandler.cs" afterPath="$PROJECT_DIR$/DistPassCracker/Handlers/CrackingHandler.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DistPassCracker/Handlers/PasswordFileHandler.cs" afterPath="$PROJECT_DIR$/DistPassCracker/Handlers/PasswordFileHandler.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DistPassCracker/Model/DecryptedUserinfo.cs" afterPath="$PROJECT_DIR$/DistPassCracker/Model/DecryptedUserinfo.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DistPassCracker/Model/EncryptedUserinfo.cs" afterPath="$PROJECT_DIR$/DistPassCracker/Model/EncryptedUserinfo.cs" />
     </list>
     <ignored path="$PROJECT_DIR$/DistPassCracker/bin/" />
     <ignored path="$PROJECT_DIR$/DistPassCracker/obj/" />
@@ -17,6 +14,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -43,32 +44,32 @@
       <file leaf-file-name="CrackingHandler.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/CrackingHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="916">
-              <caret line="107" column="12" lean-forward="false" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="12" />
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
-                <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-                <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-                <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-                <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-                <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-                <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-                <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-                <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-                <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-                <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-                <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+                <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+                <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+                <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+                <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+                <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+                <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+                <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+                <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+                <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+                <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -4968,11 +4969,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488817107062</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added CheckWordsWithVeriation, this alters the dictionary word to try and hit as many veriations of passwords as possible">
+      <created>1488819979180</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1488819979180</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16837000" />
+    <option name="totallyTimeSpent" value="17007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -4998,7 +5006,7 @@
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16849817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -5035,7 +5043,8 @@
     <MESSAGE value="Minor changes" />
     <MESSAGE value="Added CompareBytes, a validation of the hashed passwords" />
     <MESSAGE value="Added the return true to CompareBytes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the return true to CompareBytes" />
+    <MESSAGE value="Added CheckWordsWithVeriation, this alters the dictionary word to try and hit as many veriations of passwords as possible" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added CheckWordsWithVeriation, this alters the dictionary word to try and hit as many veriations of passwords as possible" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5049,29 +5058,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-            <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-            <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-            <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+            <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+            <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+            <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -5151,29 +5160,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-            <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-            <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-            <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+            <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+            <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+            <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -5252,29 +5261,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-            <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-            <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-            <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+            <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+            <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+            <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -5335,29 +5344,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-            <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-            <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-            <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+            <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+            <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+            <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -5419,29 +5428,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-            <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-            <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-            <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+            <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+            <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+            <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -5521,29 +5530,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-            <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-            <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-            <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+            <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+            <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+            <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -5604,29 +5613,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-            <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-            <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-            <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+            <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+            <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+            <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -5705,29 +5714,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-            <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-            <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-            <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+            <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+            <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+            <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -5789,29 +5798,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-            <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-            <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-            <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+            <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+            <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+            <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -5891,29 +5900,29 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-            <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-            <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-            <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+            <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+            <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+            <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -6050,32 +6059,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/CrackingHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="916">
-          <caret line="107" column="12" lean-forward="false" selection-start-line="107" selection-start-column="12" selection-end-line="107" selection-end-column="12" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1488819927000" expanded="true" signature="6:188" ph="..." />
-            <marker date="1488819927000" expanded="true" signature="224:5513" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="259:5511" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="417:503" ph="/// Constructor for the cracking handler. ... " />
-            <marker date="1488819927000" expanded="true" signature="536:840" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="700:830" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
-            <marker date="1488819927000" expanded="true" signature="850:927" ph="/// Runs the cracking algorithm. ... " />
-            <marker date="1488819927000" expanded="true" signature="961:1556" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="984:1158" ph="/* TODO: Implement the cracking method ... */" />
-            <marker date="1488819927000" expanded="true" signature="1219:1432" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
-            <marker date="1488819927000" expanded="true" signature="1566:1834" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
-            <marker date="1488819927000" expanded="true" signature="1957:4134" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3149:3359" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3464:3674" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3790:4097" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="3849:4083" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4251:4309" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4319:4539" ph="/// Validates whether the password has been found. ... " />
-            <marker date="1488819927000" expanded="true" signature="4629:4893" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4763:4858" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="4941:5076" ph="{...}" />
-            <marker date="1488819927000" expanded="true" signature="5086:5320" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
-            <marker date="1488819927000" expanded="true" signature="5388:5505" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="6:145" ph="..." />
+            <marker date="1488820112000" expanded="true" signature="181:5458" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="216:5456" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="374:460" ph="/// Constructor for the cracking handler. ... " />
+            <marker date="1488820112000" expanded="true" signature="493:797" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="657:787" ph="/* _messageHashAlgorithm = new SHA256CryptoServiceProvider(); ... */" />
+            <marker date="1488820112000" expanded="true" signature="807:884" ph="/// Runs the cracking algorithm. ... " />
+            <marker date="1488820112000" expanded="true" signature="918:1513" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="941:1115" ph="/* TODO: Implement the cracking method ... */" />
+            <marker date="1488820112000" expanded="true" signature="1176:1389" ph="/* These needs to be seperated by the cracking method, and then measured up against eachother ... */" />
+            <marker date="1488820112000" expanded="true" signature="1523:1791" ph="/// Alters the word in the dictionary then encrypts it, to then compare to the target password. ... " />
+            <marker date="1488820112000" expanded="true" signature="1914:4091" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3106:3316" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3421:3631" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3747:4054" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="3806:4040" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4208:4254" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4264:4484" ph="/// Validates whether the password has been found. ... " />
+            <marker date="1488820112000" expanded="true" signature="4574:4838" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4708:4803" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="4886:5021" ph="{...}" />
+            <marker date="1488820112000" expanded="true" signature="5031:5265" ph="/// Calculates elapsed time between 2 giving DateTimes. First start then end. ... " />
+            <marker date="1488820112000" expanded="true" signature="5333:5450" ph="{...}" />
           </folding>
         </state>
       </provider>

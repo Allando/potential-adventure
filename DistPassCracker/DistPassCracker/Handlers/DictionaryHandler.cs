@@ -20,7 +20,7 @@ namespace DistPassCracker.Handlers
         public static List<string> PartialListFour;
         public static List<string> PartialListFive;
 
-        public static char[] _alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+        private static readonly char[] Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ".ToCharArray();
 
 
 
@@ -29,14 +29,14 @@ namespace DistPassCracker.Handlers
             DictList = new List<string>(File.ReadAllLines("webster-dictionary"));
         }
 
-        public static List<string> LetterSplitter(List<string> dictionary)
+        public static List<string> ListSplitter(List<string> dictionary)
         {
             int x = 0;
             for (int i = 0; i < dictionary.Count; i++)
             {
                 ++x;
-                if (dictionary[i].StartsWith(_alphabet[x].ToString()) || x >= _alphabet.Length) LetterQuery(_alphabet[x]);
-                if (x == _alphabet.Length) break;
+                if (dictionary[i].StartsWith(Alphabet[x].ToString()) || x >= Alphabet.Length) LetterQuery(Alphabet[x]);
+                if (x == Alphabet.Length) break;
             }
             return null;
         }

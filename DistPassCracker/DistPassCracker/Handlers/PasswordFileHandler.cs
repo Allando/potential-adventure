@@ -30,11 +30,12 @@ namespace DistPassCracker.Handlers
         }
 
 
-        public void PossiblePasswordsLogger(string result)
+        public void PossiblePasswordsLogger<T>(List<T> result)
         {
             var results = new List<string>();
             //var path = ""; //Use generic filepath
             var path = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments); //For Windows. Saves OutputFile in Documents
+            //This WILL fail. We need to find a way to get permissions to write a file to windows documents.. or something.. see if i care.
 
             using (var OutputFile = new StreamWriter(@path))
             {

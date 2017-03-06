@@ -10,7 +10,7 @@ namespace DistPassCracker.Handlers
     {
         //TODO: Handle how the dictionary is split and distributed.
 
-        public static List<string> DictList;
+        public static List<string> DictList = new List<string>(File.ReadAllLines("/Users/TRiBByX/RiderProjects/DistPassCracker/DistPassCracker/webster-dictionary.txt"));
 
         public static List<string> PartialListOne;
         public static List<string> PartialListTwo;
@@ -19,13 +19,6 @@ namespace DistPassCracker.Handlers
         public static List<string> PartialListFive;
 
         private static readonly char[] Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ".ToCharArray();
-
-
-
-        public DictionaryHandler()
-        {
-            DictList = new List<string>(File.ReadAllLines("webster-dictionary"));
-        }
 
         /// <summary>
         /// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on.

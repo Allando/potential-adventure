@@ -50,6 +50,10 @@ namespace DistPassCracker
 //            }
 //            Console.WriteLine(x);
 
+            foreach (var i in DictionaryHandler.DictList)
+            {
+                Console.WriteLine(i);
+            }
         }
 
         //Test method

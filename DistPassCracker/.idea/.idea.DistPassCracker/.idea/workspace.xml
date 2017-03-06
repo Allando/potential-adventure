@@ -21,15 +21,15 @@
       <file leaf-file-name="DictionaryHandler.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="238">
+              <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
-                <marker date="1488800722859" expanded="true" signature="6:109" ph="..." />
-                <marker date="1488800722859" expanded="true" signature="145:845" ph="{...}" />
-                <marker date="1488800722859" expanded="true" signature="182:843" ph="{...}" />
-                <marker date="1488800722859" expanded="true" signature="449:512" ph="{...}" />
-                <marker date="1488800722859" expanded="true" signature="566:837" ph="{...}" />
-                <marker date="1488800722859" expanded="true" signature="634:827" ph="{...}" />
+                <marker date="1488800860661" expanded="true" signature="6:109" ph="..." />
+                <marker date="1488800860661" expanded="true" signature="145:824" ph="{...}" />
+                <marker date="1488800860661" expanded="true" signature="182:822" ph="{...}" />
+                <marker date="1488800860661" expanded="true" signature="389:491" ph="{...}" />
+                <marker date="1488800860661" expanded="true" signature="545:816" ph="{...}" />
+                <marker date="1488800860661" expanded="true" signature="613:806" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -125,12 +125,12 @@
       <option name="presentableId" value="Default" />
       <updated>1488790480342</updated>
       <workItem from="1488790485351" duration="6784000" />
-      <workItem from="1488799592920" duration="849000" />
+      <workItem from="1488799592920" duration="979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7633000" />
+    <option name="totallyTimeSpent" value="7763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,27 +181,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488800722859" expanded="true" signature="6:109" ph="..." />
-            <marker date="1488800722859" expanded="true" signature="145:845" ph="{...}" />
-            <marker date="1488800722859" expanded="true" signature="182:843" ph="{...}" />
-            <marker date="1488800722859" expanded="true" signature="449:512" ph="{...}" />
-            <marker date="1488800722859" expanded="true" signature="566:837" ph="{...}" />
-            <marker date="1488800722859" expanded="true" signature="634:827" ph="{...}" />
+            <marker date="1488800860661" expanded="true" signature="6:109" ph="..." />
+            <marker date="1488800860661" expanded="true" signature="145:824" ph="{...}" />
+            <marker date="1488800860661" expanded="true" signature="182:822" ph="{...}" />
+            <marker date="1488800860661" expanded="true" signature="389:491" ph="{...}" />
+            <marker date="1488800860661" expanded="true" signature="545:816" ph="{...}" />
+            <marker date="1488800860661" expanded="true" signature="613:806" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <marker date="1488800722859" expanded="true" signature="6:109" ph="..." />
-            <marker date="1488800722859" expanded="true" signature="145:845" ph="{...}" />
-            <marker date="1488800722859" expanded="true" signature="182:843" ph="{...}" />
-            <marker date="1488800722859" expanded="true" signature="449:512" ph="{...}" />
-            <marker date="1488800722859" expanded="true" signature="566:837" ph="{...}" />
-            <marker date="1488800722859" expanded="true" signature="634:827" ph="{...}" />
+            <marker date="1488800860661" expanded="true" signature="6:109" ph="..." />
+            <marker date="1488800860661" expanded="true" signature="145:824" ph="{...}" />
+            <marker date="1488800860661" expanded="true" signature="182:822" ph="{...}" />
+            <marker date="1488800860661" expanded="true" signature="389:491" ph="{...}" />
+            <marker date="1488800860661" expanded="true" signature="545:816" ph="{...}" />
+            <marker date="1488800860661" expanded="true" signature="613:806" ph="{...}" />
           </folding>
         </state>
       </provider>

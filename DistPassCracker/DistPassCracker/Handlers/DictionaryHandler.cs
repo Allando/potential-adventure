@@ -12,11 +12,11 @@ namespace DistPassCracker.Handlers
 
         private static Random rng = new Random();
 
-        public static List<string> DictList = new List<string>(File.ReadAllLines("webster-dictionary"));
+        public static List<string> DictList;
 
         public DictionaryHandler()
         {
-            DictList = new List<string>();
+            DictList = new List<string>(File.ReadAllLines("webster-dictionary"));
         }
 
         public static void Shuffle<T>(IList<T> list)

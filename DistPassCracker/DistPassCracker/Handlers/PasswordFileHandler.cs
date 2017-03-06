@@ -29,17 +29,19 @@ namespace DistPassCracker.Handlers
             }
         }
 
-        public void PossiblePasswordsLogger()
-        {
-            var lines = new List<string>();
-            var path = ""; //Use generic filepath
 
-            using (var file = new StreamWriter(@path))
+        public void PossiblePasswordsLogger(string result)
+        {
+            var results = new List<string>();
+            //var path = ""; //Use generic filepath
+            var path = Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments); //For Windows. Saves OutputFile in Documents
+
+            using (var OutputFile = new StreamWriter(@path))
             {
                 Console.WriteLine("Writing results to ", path);
-                foreach (var l in lines)
+                foreach (var l in results)
                 {
-                    file.WriteLine(l);
+                    OutputFile.WriteLine(l);
                 }
             }
         }

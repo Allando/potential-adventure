@@ -46,6 +46,7 @@ namespace DistPassCracker.Handlers
             {
                 if (firstArray[i] != secondArray[i]) return false;
             }
+            return true;
         }
 
         /// <summary>

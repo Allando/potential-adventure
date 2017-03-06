@@ -29,6 +29,12 @@ namespace DistPassCracker.Handlers
             DictList = new List<string>(File.ReadAllLines("webster-dictionary"));
         }
 
+        /// <summary>
+        /// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on.
+        /// Takes a string list as parameter.
+        /// </summary>
+        /// <param name="dictionary"></param>
+        /// <returns></returns>
         public static List<string> ListSplitter(List<string> dictionary)
         {
             int x = 0;
@@ -40,7 +46,12 @@ namespace DistPassCracker.Handlers
             }
             return null;
         }
-
+        /// <summary>
+        /// Finds all entries with the letter specified in the parameter
+        /// Takes a char as parameter.
+        /// </summary>
+        /// <param name="letter"></param>
+        /// <returns></returns>
         private static List<string> LetterQuery(char letter)
         {
             List<string> Result = new List<string>();

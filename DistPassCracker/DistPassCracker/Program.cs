@@ -49,12 +49,7 @@ namespace DistPassCracker
 //                x = i;
 //            }
 //            Console.WriteLine(x);
-            var wordList = DictionaryHandler.DictList;
 
-            foreach (var l in )
-            {
-
-            }
         }
 
         //Test method

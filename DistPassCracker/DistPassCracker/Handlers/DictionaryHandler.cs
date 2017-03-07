@@ -11,7 +11,8 @@ namespace DistPassCracker.Handlers
         //TODO: Handle how the dictionary is split and distributed.
 
         //public static List<string> DictList = new List<string>(File.ReadAllLines("/Users/TRiBByX/RiderProjects/DistPassCracker/DistPassCracker/webster-dictionary.txt"));
-        public static List<string> DictList = new List<string>(File.ReadAllLines("/home/ippo/Programming/Repos/potential-adventure/DistPassCracker/webster-dictionary.txt"));
+        //public static List<string> DictList = new List<string>(File.ReadAllLines("/home/ippo/Programming/Repos/potential-adventure/DistPassCracker/webster-dictionary.txt"));
+        public static List<string> DictList = new List<string>(File.ReadAllLines("webster-dictionary.txt"));
 
 
         public static List<string> PartialListOne;

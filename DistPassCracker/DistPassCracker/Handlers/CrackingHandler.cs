@@ -24,7 +24,8 @@ namespace DistPassCracker.Handlers
             */
 
 //            List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("/Users/TRiBByX/RiderProjects/DistPassCracker/DistPassCracker/Passwords.txt");
-            List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("/home/ippo/Programming/Repos/potential-adventure/DistPassCracker/passwords.txt");
+            //List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("/home/ippo/Programming/Repos/potential-adventure/DistPassCracker/passwords.txt");
+            List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("passwords.txt");
 
             Console.WriteLine("Passwords uploaded");
 

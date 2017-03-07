@@ -1,7 +1,8 @@
 ﻿﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.IO;
+ using System.Collections.ObjectModel;
+ using System.IO;
 using System.Linq;
 
 namespace DistPassCracker.Handlers
@@ -10,16 +11,10 @@ namespace DistPassCracker.Handlers
     {
         //TODO: Handle how the dictionary is split and distributed.
 
-        //public static List<string> DictList = new List<string>(File.ReadAllLines("/Users/TRiBByX/RiderProjects/DistPassCracker/DistPassCracker/webster-dictionary.txt"));
-        //public static List<string> DictList = new List<string>(File.ReadAllLines("/home/ippo/Programming/Repos/potential-adventure/DistPassCracker/webster-dictionary.txt"));
-        public static List<string> DictList = new List<string>(File.ReadAllLines("webster-dictionary.txt"));
+        private static List<string> DictList = new List<string>(File.ReadAllLines("webster-dictionary.txt"));
+        public static Collection<List<string>> chunckCollection = new Collection<List<string>>();
 
 
-        public static List<string> PartialListOne;
-        public static List<string> PartialListTwo;
-        public static List<string> PartialListThree;
-        public static List<string> PartialListFour;
-        public static List<string> PartialListFive;
 
         private static readonly char[] Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ".ToCharArray();
 
@@ -35,7 +30,10 @@ namespace DistPassCracker.Handlers
             for (int i = 0; i < dictionary.Count; i++)
             {
                 ++x;
-                if (dictionary[i].StartsWith(Alphabet[x].ToString()) || x >= Alphabet.Length) LetterQuery(Alphabet[x]);
+                if (dictionary[i].StartsWith(Alphabet[x].ToString()) || x >= Alphabet.Length)
+                {
+                    List<string> result = LetterQuery(Alphabet[x]);
+                }
                 if (x == Alphabet.Length) break;
             }
             return null;
@@ -48,10 +46,28 @@ namespace DistPassCracker.Handlers
         /// <returns></returns>
         private static List<string> LetterQuery(char letter)
         {
-            List<string> Result = new List<string>();
+            List<string> result = new List<string>();
             var query = DictList.Where(x => x.StartsWith(letter.ToString()));
-            foreach (var item in query) Result.Add(item);
-            return Result;
+            foreach (var item in query) result.Add(item);
+            return result;
+        }
+
+        public static Collection<List<string>> SplitDict()
+        {
+            int maxChunckSize = DictList.Count / 4;
+            int n = 1;
+            List<string> chunck = new List<string>();
+            foreach (var word in DictList)
+            {
+                chunck.Add(word);
+                if (n++ % maxChunckSize == 0)
+                {
+                    chunckCollection.Add(chunck);
+                    chunck = new List<string>();
+                }
+                chunckCollection.Add(chunck);
+            }
+            return chunckCollection;
         }
     }
 }

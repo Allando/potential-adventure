@@ -55,8 +55,13 @@ namespace DistPassCracker
 //                Console.WriteLine(i);
 //            }
 
-            CrackingHandler.RunCracking();
-        }
+            DictionaryHandler.SplitDict();
+
+            Task one = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0]));
+            Task two = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[1]));
+            Task three = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[2]));
+            Task four = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[3]));
+            }
 
         //Test method
         static async void CrackerMethod()

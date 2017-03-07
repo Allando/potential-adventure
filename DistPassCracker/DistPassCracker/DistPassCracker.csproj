@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Handlers\CrackingHandler.cs" />
     <Compile Include="Handlers\DictionaryHandler.cs" />
+    <Compile Include="Handlers\ThreadHandler.cs" />
     <Compile Include="Model\DecryptedUserinfo.cs" />
     <Compile Include="Model\EncryptedUserinfo.cs" />
     <Compile Include="Program.cs" />

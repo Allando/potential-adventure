@@ -10,35 +10,29 @@ namespace DistPassCracker.Handlers
 {
     public class CrackingHandler
     {
+        public static int PassCount = 0;
         /// <summary>
         /// Runs the cracking algorithm.
         /// </summary>
-        public static void RunCracking()
+        public static void RunCracking(List<string> dictList)
         {
-            //TODO: Implement the cracking method
             //Registering start time, and end time
             DateTime startTime =  DateTime.Now;
-            /*
-            These needs to be seperated by the cracking method, and then measured up against eachother
-            this way we make figure out exactly how long it took the cracking method to run.
-            */
 
-//            List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("/Users/TRiBByX/RiderProjects/DistPassCracker/DistPassCracker/Passwords.txt");
-            //List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("/home/ippo/Programming/Repos/potential-adventure/DistPassCracker/passwords.txt");
             List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("passwords.txt");
 
-            Console.WriteLine("Passwords uploaded");
+            var dick = dictList;
 
-            for (int i = 0; i < DictionaryHandler.DictList.Count; i++)
+            Console.WriteLine("Passwords uploaded");
+            for (int i = 0; i < dictList.Count; i++)
             {
-                string dicEntry = DictionaryHandler.DictList[i];
+                string dicEntry = dick[i];
                 List<DecryptedUserinfo> partialResult = CheckWordWithVariations(dicEntry, usrInf);
             }
-
+            //Registering the end time.
             DateTime endTime = DateTime.Now;
             Console.WriteLine(TimeCalculation(startTime, endTime));
-
-
+            Console.WriteLine($"Found {PassCount} of {usrInf.Count}");
         }
 
         /// <summary>
@@ -51,7 +45,6 @@ namespace DistPassCracker.Handlers
         {
             //TODO: Check whether the password has removed all consonants and vocals.
             List<DecryptedUserinfo> result = new List<DecryptedUserinfo>();
-
 
             //Check plain word
             string possiblePassword = dictionaryEntry;
@@ -101,6 +94,15 @@ namespace DistPassCracker.Handlers
             return result;
         }
 
+        /// <summary>
+        /// Checks single password. Converts the possible password to a bytearray and then converts these bytes into their hashes.
+        /// Then it compares the two against eachother.
+        ///
+        /// Takes a list of Encrypted User info and a string of a possible password(non hashed.
+        /// </summary>
+        /// <param name="userInfos"></param>
+        /// <param name="possiblePassword"></param>
+        /// <returns></returns>
         private static List<DecryptedUserinfo> CheckSingleWord(List<EncryptedUserInfo> userInfos, string possiblePassword)
         {
             char[] charArray = possiblePassword.ToCharArray();
@@ -116,6 +118,7 @@ namespace DistPassCracker.Handlers
                 if (CompareBytes(encryptedUserInfo.EncryptedPass, hashedPassword))
                 {
                     results.Add(new DecryptedUserinfo(encryptedUserInfo.Username, possiblePassword));
+                    PassCount++;
                     Console.WriteLine($"{encryptedUserInfo.Username} {possiblePassword}");
                 }
             }

@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.IO;
 using System.Diagnostics;
 using System.Collections.Generic;
@@ -10,20 +10,6 @@ namespace DistPassCracker.Handlers
 {
     public class CrackingHandler
     {
-        //Variable to store what type of hash method has beeh used for hashing.
-        private static HashAlgorithm MessageHashAlgorithm;
-
-        /// <summary>
-        /// Constructor for the cracking handler.
-        /// </summary>
-        public CrackingHandler()
-        {
-            //Other algorithms could be chosen here, like MD5 or SHA256
-            MessageHashAlgorithm = new SHA1CryptoServiceProvider();
-            //_messageHashAlgorithm = new SHA256CryptoServiceProvider();
-            //_messageHashAlgorithm = new MD5CryptoServiceProvider();
-        }
-
         /// <summary>
         /// Runs the cracking algorithm.
         /// </summary>
@@ -116,6 +102,7 @@ namespace DistPassCracker.Handlers
         private static List<DecryptedUserinfo> CheckSingleWord(List<EncryptedUserInfo> userInfos, string possiblePassword)
         {
             char[] charArray = possiblePassword.ToCharArray();
+
             byte[] passwordAsBytes = Array.ConvertAll(charArray, StringHandler.GetConverter());
 
             byte[] hashedPassword = new SHA1CryptoServiceProvider().ComputeHash(passwordAsBytes);

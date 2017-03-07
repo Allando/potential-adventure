@@ -4,8 +4,20 @@ using System.Text;
 
 namespace DistPassCracker.Handlers
 {
-    public class StringUtility
+    public class StringHandler
     {
+        private static readonly Converter<char, byte> Converter = CharToByte;
+
+        private static byte CharToByte(char ch)
+        {
+            return Convert.ToByte(ch);
+        }
+
+        public static Converter<char, byte> GetConverter()
+        {
+            return Converter;
+        }
+
         /// <summary>
         /// Capitalizes the inputtet string
         /// </summary>

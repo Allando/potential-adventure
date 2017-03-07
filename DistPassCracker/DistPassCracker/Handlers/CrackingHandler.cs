@@ -11,7 +11,7 @@ namespace DistPassCracker.Handlers
     public class CrackingHandler
     {
         //Variable to store what type of hash method has beeh used for hashing.
-        private readonly HashAlgorithm _messageHashAlgorithm;
+        private static HashAlgorithm MessageHashAlgorithm;
 
         /// <summary>
         /// Constructor for the cracking handler.
@@ -19,7 +19,7 @@ namespace DistPassCracker.Handlers
         public CrackingHandler()
         {
             //Other algorithms could be chosen here, like MD5 or SHA256
-            _messageHashAlgorithm = new SHA1CryptoServiceProvider();
+            MessageHashAlgorithm = new SHA1CryptoServiceProvider();
             //_messageHashAlgorithm = new SHA256CryptoServiceProvider();
             //_messageHashAlgorithm = new MD5CryptoServiceProvider();
         }
@@ -27,7 +27,7 @@ namespace DistPassCracker.Handlers
         /// <summary>
         /// Runs the cracking algorithm.
         /// </summary>
-        public void RunCracking()
+        public static void RunCracking()
         {
             //TODO: Implement the cracking method
             //Registering start time, and end time
@@ -38,6 +38,14 @@ namespace DistPassCracker.Handlers
             */
 
             List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("/Users/TRiBByX/RiderProjects/DistPassCracker/DistPassCracker/Passwords.txt");
+
+            Console.WriteLine("Passwords uploaded");
+
+            for (int i = 0; i < DictionaryHandler.DictList.Count; i++)
+            {
+                string dicEntry = DictionaryHandler.DictList[i];
+                List<DecryptedUserinfo> partialResult = CheckWordWithVariations(dicEntry, usrInf);
+            }
 
             DateTime endTime = DateTime.Now;
             string timeTaken = TimeCalculation(startTime, endTime);
@@ -50,7 +58,7 @@ namespace DistPassCracker.Handlers
         /// <param name="dictionaryEntry"></param>
         /// <param name="userInfos"></param>
         /// <returns></returns>
-        private List<DecryptedUserinfo> CheckWordWithVariations(string dictionaryEntry, List<EncryptedUserInfo> userInfos)
+        private static List<DecryptedUserinfo> CheckWordWithVariations(string dictionaryEntry, List<EncryptedUserInfo> userInfos)
         {
             //TODO: Check whether the password has removed all consonants and vocals.
             List<DecryptedUserinfo> result = new List<DecryptedUserinfo>();
@@ -62,33 +70,33 @@ namespace DistPassCracker.Handlers
             result.AddRange(partialResult);
 
             //Checks all capital letters.
-            possiblePassword = dictionaryEntry.ToUpper();
-            partialResult = CheckSingleWord(userInfos, possiblePassword);
+            string possibleCapitalizedPassword = dictionaryEntry.ToUpper();
+            partialResult = CheckSingleWord(userInfos, possibleCapitalizedPassword);
             result.AddRange(partialResult);
 
             //Checks capitalized first letter.
-            possiblePassword = dictionaryEntry.First().ToString().ToUpper();
-            partialResult = CheckSingleWord(userInfos, possiblePassword);
+            string possibleCapitalizedFirstLetterPassword = dictionaryEntry.First().ToString().ToUpper();
+            partialResult = CheckSingleWord(userInfos, possibleCapitalizedFirstLetterPassword);
             result.AddRange(partialResult);
 
             //Checks a reversed password.
-            possiblePassword = ReverseString(dictionaryEntry);
-            partialResult = CheckSingleWord(userInfos, possiblePassword);
+            string possibleReversedPassword = ReverseString(dictionaryEntry);
+            partialResult = CheckSingleWord(userInfos, possibleReversedPassword);
             result.AddRange(partialResult);
 
             //Checks if the password has a digit at the end.
             for (int i = 0; i < 100; i++)
             {
-                possiblePassword = dictionaryEntry + i;
-                partialResult = CheckSingleWord(userInfos, possiblePassword);
+                string possiblePasswordDigit = dictionaryEntry + i;
+                partialResult = CheckSingleWord(userInfos, possiblePasswordDigit);
                 result.AddRange(partialResult);
             }
 
             //Checks if the password has a digit at the start
             for (int i = 0; i < 100; i++)
             {
-                possiblePassword = i + dictionaryEntry;
-                partialResult = CheckSingleWord(userInfos, possiblePassword);
+                string possibleDigitPassword = i + dictionaryEntry;
+                partialResult = CheckSingleWord(userInfos, possibleDigitPassword);
                 result.AddRange(partialResult);
             }
             //checks if the password has a digit at the end and the start.
@@ -96,20 +104,20 @@ namespace DistPassCracker.Handlers
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    possiblePassword = i + dictionaryEntry + j;
-                    partialResult = CheckSingleWord(userInfos, possiblePassword);
+                    string possibleDigitPasswordDigit = i + dictionaryEntry + j;
+                    partialResult = CheckSingleWord(userInfos, possibleDigitPasswordDigit);
                     result.AddRange(partialResult);
                 }
             }
             return result;
         }
 
-        private List<DecryptedUserinfo> CheckSingleWord(List<EncryptedUserInfo> userInfos, string possiblePassword)
+        private static List<DecryptedUserinfo> CheckSingleWord(List<EncryptedUserInfo> userInfos, string possiblePassword)
         {
             char[] charArray = possiblePassword.ToCharArray();
-            byte[] passwordAsBytes = Convert.FromBase64CharArray(charArray, 1, charArray.Length);
+            byte[] passwordAsBytes = Array.ConvertAll(charArray, StringHandler.GetConverter());
 
-            byte[] hashedPassword = _messageHashAlgorithm.ComputeHash(passwordAsBytes);
+            byte[] hashedPassword = MessageHashAlgorithm.ComputeHash(passwordAsBytes);
 
             List<DecryptedUserinfo> results = new List<DecryptedUserinfo>();
 
@@ -140,7 +148,7 @@ namespace DistPassCracker.Handlers
             return true;
         }
 
-        private string ReverseString(string s)
+        private static string ReverseString(string s)
         {
             char[] chars = s.ToCharArray();
             Array.Reverse(chars);
@@ -153,7 +161,7 @@ namespace DistPassCracker.Handlers
         /// <param name="start"></param>
         /// <param name="end"></param>
         /// <returns></returns>
-        public string TimeCalculation(DateTime start, DateTime end)
+        public static string TimeCalculation(DateTime start, DateTime end)
         {
             TimeSpan elapsedTime = end - start;
             return $"Time taken: {elapsedTime}";

@@ -132,12 +132,19 @@ namespace DistPassCracker.Handlers
         /// <returns></returns>
         private static bool CompareBytes(IList<byte> firstArray, IList<byte> secondArray)
         {
-            if (firstArray.Count != secondArray.Count) return false;
-            for (int i = 0; i < firstArray.Count; i++)
+            try
             {
-                if (firstArray[i] != secondArray[i]) return false;
+                if (firstArray.Count != secondArray.Count) return false;
+                for (int i = 0; i < firstArray.Count; i++)
+                {
+                    if (firstArray[i] != secondArray[i]) return false;
+                }
+                return true;
             }
-            return true;
+            catch (Exception e)
+            {
+                throw new NullReferenceException(e.Message);
+            }
         }
 
         private string ReverseString(string s)

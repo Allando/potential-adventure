@@ -36,7 +36,8 @@ namespace DistPassCracker.Handlers
             }
 
             DateTime endTime = DateTime.Now;
-            string timeTaken = TimeCalculation(startTime, endTime);
+            Console.WriteLine(TimeCalculation(startTime, endTime));
+
 
         }
 
@@ -63,7 +64,7 @@ namespace DistPassCracker.Handlers
             result.AddRange(partialResult);
 
             //Checks capitalized first letter.
-            string possibleCapitalizedFirstLetterPassword = dictionaryEntry.First().ToString().ToUpper();
+            string possibleCapitalizedFirstLetterPassword = dictionaryEntry.First().ToString().ToUpper() + dictionaryEntry.Substring(1);
             partialResult = CheckSingleWord(userInfos, possibleCapitalizedFirstLetterPassword);
             result.AddRange(partialResult);
 

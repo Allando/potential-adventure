@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
+using System.Text;
 
 namespace DistPassCracker.Handlers
 {
@@ -29,14 +30,15 @@ namespace DistPassCracker.Handlers
         public void RunCracking()
         {
             //TODO: Implement the cracking method
-            //Maybe utilizing something like the ThreadHandler here would be viable?
-
             //Registering start time, and end time
             DateTime startTime =  DateTime.Now;
             /*
             These needs to be seperated by the cracking method, and then measured up against eachother
             this way we make figure out exactly how long it took the cracking method to run.
             */
+
+            List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("/Users/TRiBByX/RiderProjects/DistPassCracker/DistPassCracker/Passwords.txt");
+
             DateTime endTime = DateTime.Now;
             string timeTaken = TimeCalculation(startTime, endTime);
 
@@ -104,8 +106,22 @@ namespace DistPassCracker.Handlers
 
         private List<DecryptedUserinfo> CheckSingleWord(List<EncryptedUserInfo> userInfos, string possiblePassword)
         {
+            char[] charArray = possiblePassword.ToCharArray();
+            byte[] passwordAsBytes = Convert.FromBase64CharArray(charArray, 1, charArray.Length);
 
-            return null;
+            byte[] hashedPassword = _messageHashAlgorithm.ComputeHash(passwordAsBytes);
+
+            List<DecryptedUserinfo> results = new List<DecryptedUserinfo>();
+
+            foreach (var encryptedUserInfo in userInfos)
+            {
+                if (CompareBytes(encryptedUserInfo.EncryptedPass, hashedPassword))
+                {
+                    results.Add(new DecryptedUserinfo(encryptedUserInfo.Username, possiblePassword));
+                    Console.WriteLine($"{encryptedUserInfo.Username} {possiblePassword}");
+                }
+            }
+            return results;
         }
 
         /// <summary>

@@ -37,7 +37,8 @@ namespace DistPassCracker.Handlers
             this way we make figure out exactly how long it took the cracking method to run.
             */
 
-            List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("/Users/TRiBByX/RiderProjects/DistPassCracker/DistPassCracker/Passwords.txt");
+//            List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("/Users/TRiBByX/RiderProjects/DistPassCracker/DistPassCracker/Passwords.txt");
+            List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("/home/ippo/Programming/Repos/potential-adventure/DistPassCracker/passwords.txt");
 
             Console.WriteLine("Passwords uploaded");
 
@@ -117,7 +118,7 @@ namespace DistPassCracker.Handlers
             char[] charArray = possiblePassword.ToCharArray();
             byte[] passwordAsBytes = Array.ConvertAll(charArray, StringHandler.GetConverter());
 
-            byte[] hashedPassword = MessageHashAlgorithm.ComputeHash(passwordAsBytes);
+            byte[] hashedPassword = new SHA1CryptoServiceProvider().ComputeHash(passwordAsBytes);
 
             List<DecryptedUserinfo> results = new List<DecryptedUserinfo>();
 

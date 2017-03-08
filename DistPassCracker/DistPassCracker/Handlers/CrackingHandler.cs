@@ -21,14 +21,17 @@ namespace DistPassCracker.Handlers
 
             List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("passwords.txt");
 
-            var dick = dictList;
+            var Dictionary = dictList;
+
+            //TODO: Fix that it doesnt enter this forloop, and if it does, does so in the wrong way.
 
             Console.WriteLine("Passwords uploaded");
             for (int i = 0; i < dictList.Count; i++)
             {
-                string dicEntry = dick[i];
+                string dicEntry = Dictionary[i];
                 List<DecryptedUserinfo> partialResult = CheckWordWithVariations(dicEntry, usrInf);
             }
+
             //Registering the end time.
             DateTime endTime = DateTime.Now;
             Console.WriteLine(TimeCalculation(startTime, endTime));

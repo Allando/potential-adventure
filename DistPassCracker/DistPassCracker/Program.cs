@@ -57,30 +57,33 @@ namespace DistPassCracker
 
             DictionaryHandler.SplitDict();
 
-            Task one = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0]));
-            Task two = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[1]));
-            Task three = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[2]));
-            Task four = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[3]));
-            }
+//            ThreadStart t = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0]));
+//            ThreadStart t1 = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[1]));
+//            ThreadStart t2 = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[2]));
+//            ThreadStart t3 = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[3]));
+//
+//
+//
+//
+//            Thread tt = new Thread(t);
+//            Thread tt1 = new Thread(t1);
+//            Thread tt2 = new Thread(t2);
+//            Thread tt3 = new Thread(t3);
+            int x = 0;
+            for (int i = 0; i < DictionaryHandler.chunckCollection[1].Count; i++) if (DictionaryHandler.chunckCollection[0][i] == DictionaryHandler.chunckCollection[1][i]) x++;
+            Console.WriteLine($"{x} Identical words out of {DictionaryHandler.chunckCollection[0].Count}");
 
-        //Test method
-        static async void CrackerMethod()
-        {
-            //TEST af thread component.
-            //TODO: Functionality, basically doing some dictionary handling and so on.
-//            for (int i = 0; i < 10; i++)
-//            {
-//                Console.WriteLine("Womble is a faggot");
-//            }
+//            Task task1 = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0]));
+//            Task task2 = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[1]));
+//            Task task3 = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[2]));
+//            Task task4 = Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[3]));
+//
+//            task1.Wait();
+//            task2.Wait();
+//            task3.Wait();
+//            task4.Wait();
 
-            int c = 12 + 12;
-            Console.WriteLine(c);
-        }
 
-        static async void CrackerMethod(int i)
-        {
-            int c = i + 13;
-            Console.WriteLine(c);
         }
     }
 }

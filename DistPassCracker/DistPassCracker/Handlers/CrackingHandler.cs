@@ -16,9 +16,6 @@ namespace DistPassCracker.Handlers
         /// </summary>
         public static void RunCracking(List<string> dictList)
         {
-            //Registering start time, and end time
-            DateTime startTime =  DateTime.Now;
-
             List<EncryptedUserInfo> usrInf = PasswordFileHandler.ReadPasswordFile("passwords.txt");
 
             var Dictionary = dictList;
@@ -33,9 +30,7 @@ namespace DistPassCracker.Handlers
             }
 
             //Registering the end time.
-            DateTime endTime = DateTime.Now;
-            Console.WriteLine(TimeCalculation(startTime, endTime));
-            Console.WriteLine($"Found {PassCount} of {usrInf.Count}");
+
         }
 
         /// <summary>

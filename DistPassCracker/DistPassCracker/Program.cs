@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -57,18 +58,18 @@ namespace DistPassCracker
 
             DictionaryHandler.SplitDict();
 
-            ThreadStart t = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0]));
-            ThreadStart t1 = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[1]));
-            ThreadStart t2 = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[2]));
-            ThreadStart t3 = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[3]));
-
-
-
-
-            Thread tt = new Thread(t);
-            Thread tt1 = new Thread(t1);
-            Thread tt2 = new Thread(t2);
-            Thread tt3 = new Thread(t3);
+//            ThreadStart t = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0]));
+//            ThreadStart t1 = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[1]));
+//            ThreadStart t2 = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[2]));
+//            ThreadStart t3 = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[3]));
+//
+//
+//
+//
+//            Thread tt = new Thread(t);
+//            Thread tt1 = new Thread(t1);
+//            Thread tt2 = new Thread(t2);
+//            Thread tt3 = new Thread(t3);
 
 //
 //            int x = 0;
@@ -85,7 +86,34 @@ namespace DistPassCracker
 //            task3.Wait();
 //            task4.Wait();
 
+//            Console.WriteLine(DictionaryHandler.chunckCollection.Count);
+//            List<Task> tasks = new List<Task>();
+//            for (int i = 0; i < DictionaryHandler.chunckCollection.Count; i++)
+//            {
+//                tasks.Add(Task.Run(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[i])));
+//            }
 
+//            foreach (var task in tasks)
+//            {
+////                task.Wait();
+//
+//                Console.WriteLine(tasks.Count);
+//            }
+
+//            Task.WaitAll(tasks.ToArray());
+            DateTime startTime =  DateTime.Now;
+
+
+            ThreadStart[] threadStarts = new ThreadStart[DictionaryHandler.chunckCollection.Count];
+            for (int i = 0; i < DictionaryHandler.chunckCollection.Count; i++)
+            {
+                threadStarts[i] = new ThreadStart(() => CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[i]));
+                new Thread(threadStarts[i]).Start();
+            }
+            DateTime endTime = DateTime.Now;
+            Console.WriteLine(CrackingHandler.TimeCalculation(startTime, endTime));
+            Console.WriteLine($"Found {CrackingHandler.PassCount} of {12}");
+            Console.WriteLine("Done");
         }
     }
 }

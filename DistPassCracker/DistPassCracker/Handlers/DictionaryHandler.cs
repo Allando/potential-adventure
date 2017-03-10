@@ -54,7 +54,7 @@ namespace DistPassCracker.Handlers
 
         public static Collection<List<string>> SplitDict()
         {
-            int maxChunckSize = DictList.Count / 4;
+            int maxChunckSize = DictList.Count / 10;
             int n = 1;
             List<string> chunck = new List<string>();
             foreach (var word in DictList)

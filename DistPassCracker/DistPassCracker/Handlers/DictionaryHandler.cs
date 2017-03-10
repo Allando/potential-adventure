@@ -65,7 +65,6 @@ namespace DistPassCracker.Handlers
                     chunckCollection.Add(chunck);
                     chunck = new List<string>();
                 }
-                chunckCollection.Add(chunck);
             }
             return chunckCollection;
         }

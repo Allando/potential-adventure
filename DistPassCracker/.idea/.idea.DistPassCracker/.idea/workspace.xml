@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="771cdf23-7d2d-4895-875f-d9735080cf87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.DistPassCracker/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.DistPassCracker/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DistPassCracker/Handlers/CrackingHandler.cs" afterPath="$PROJECT_DIR$/DistPassCracker/Handlers/CrackingHandler.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs" afterPath="$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DistPassCracker/Program.cs" afterPath="$PROJECT_DIR$/DistPassCracker/Program.cs" />
     </list>
     <ignored path="$PROJECT_DIR$/DistPassCracker/bin/" />
@@ -19,24 +19,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DictionaryHandler.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DictionaryHandler.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="54" column="58" lean-forward="false" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
+            <state relative-caret-position="953">
+              <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
               <folding>
-                <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-                <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-                <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-                <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-                <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-                <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-                <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-                <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-                <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-                <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-                <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-                <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+                <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+                <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+                <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+                <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+                <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+                <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+                <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+                <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+                <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+                <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+                <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+                <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -45,7 +45,7 @@
       <file leaf-file-name="CrackingHandler.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/CrackingHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="-293">
               <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
               <folding>
                 <marker date="1488908775000" expanded="true" signature="8:166" ph="..." />
@@ -81,7 +81,6 @@
             <state relative-caret-position="60">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
-                <marker date="1488891761000" expanded="true" signature="34:263" ph="{...}" />
                 <marker date="1488891761000" expanded="true" signature="74:261" ph="{...}" />
                 <marker date="1488891761000" expanded="true" signature="121:194" ph="{...}" />
                 <marker date="1488891761000" expanded="true" signature="234:255" ph="{...}" />
@@ -117,7 +116,6 @@
               <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding>
                 <marker date="1488882921000" expanded="true" signature="6:51" ph="..." />
-                <marker date="1488882921000" expanded="true" signature="87:1651" ph="{...}" />
                 <marker date="1488882921000" expanded="true" signature="120:1649" ph="{...}" />
                 <marker date="1488882921000" expanded="true" signature="253:312" ph="{...}" />
                 <marker date="1488882921000" expanded="true" signature="372:422" ph="{...}" />
@@ -136,7 +134,6 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1488817965000" expanded="true" signature="40:930" ph="{...}" />
                 <marker date="1488817965000" expanded="true" signature="77:928" ph="{...}" />
                 <marker date="1488817965000" expanded="true" signature="92:215" ph="/// Overall this is just a standard class. Made with the mvvm pattern in mind. ... " />
                 <marker date="1488817965000" expanded="true" signature="445:802" ph="{...}" />
@@ -152,7 +149,6 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1488817965000" expanded="true" signature="40:714" ph="{...}" />
                 <marker date="1488817965000" expanded="true" signature="77:712" ph="{...}" />
                 <marker date="1488817965000" expanded="true" signature="92:193" ph="/// Basic unectrypted version of the userinfo from file. ... " />
                 <marker date="1488817965000" expanded="true" signature="351:596" ph="{...}" />
@@ -162,19 +158,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DistPassCracker/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="72" column="176" lean-forward="false" selection-start-line="72" selection-start-column="176" selection-end-line="72" selection-end-column="176" />
+            <state relative-caret-position="335">
+              <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
               <folding>
-                <marker date="1488977592000" expanded="true" signature="6:209" ph="..." />
-                <marker date="1488977592000" expanded="true" signature="236:3392" ph="{...}" />
-                <marker date="1488977592000" expanded="true" signature="256:3390" ph="{...}" />
-                <marker date="1488977592000" expanded="true" signature="302:3384" ph="{...}" />
-                <marker date="1488977592000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
-                <marker date="1488977592000" expanded="true" signature="1836:2504" ph="/* ThreadStart t = new ThreadStart(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-                <marker date="1488977592000" expanded="true" signature="2814:3372" ph="/* Task task1 = Task.Run(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
+                <marker date="1489137415000" expanded="true" signature="6:209" ph="..." />
+                <marker date="1489137415000" expanded="true" signature="236:3378" ph="{...}" />
+                <marker date="1489137415000" expanded="true" signature="256:3376" ph="{...}" />
+                <marker date="1489137415000" expanded="true" signature="302:3370" ph="{...}" />
+                <marker date="1489137415000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
+                <marker date="1489137415000" expanded="true" signature="2482:3358" ph="/* int x = 0; ... */" />
               </folding>
             </state>
           </provider>
@@ -195,8 +190,8 @@
         <option value="$PROJECT_DIR$/DistPassCracker/Handlers/StringHandler.cs" />
         <option value="$PROJECT_DIR$/../webster-dictionary.txt" />
         <option value="$PROJECT_DIR$/DistPassCracker/Handlers/ThreadHandler.cs" />
-        <option value="$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs" />
         <option value="$PROJECT_DIR$/DistPassCracker/Handlers/CrackingHandler.cs" />
+        <option value="$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs" />
         <option value="$PROJECT_DIR$/DistPassCracker/Program.cs" />
       </list>
     </option>
@@ -234,28 +229,6 @@
               <option name="myItemId" value="DistPassCracker (1 project)" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DistPassCracker" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DistPassCracker (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DistPassCracker" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Handlers" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
         <option name="show-file-system" value="false" />
@@ -266,118 +239,6 @@
   <component name="PropertiesComponent">
     <property name="FullScreen" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../10k-most-used-pass.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../passwords.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../webster-dictionary.txt</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration default="true" type="DotNetProject" factoryName=".NET Project">
@@ -437,6 +298,7 @@
       <workItem from="1488826513361" duration="1929000" />
       <workItem from="1488840479115" duration="717000" />
       <workItem from="1488886508240" duration="20000" />
+      <workItem from="1489136893859" duration="540000" />
     </task>
     <task id="LOCAL-00001" summary="Added LetterSplitter and LetterQuery functions to the DictionaryHandler">
       <created>1488807139563</created>
@@ -508,11 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488894834592</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added a chuck checker">
+      <created>1488993265401</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1488993265401</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40026000" />
+    <option name="totallyTimeSpent" value="40894000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,46 +393,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3867347" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16971917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23979592" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38683787" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3867347" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16971917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17155068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6163724" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -580,18 +434,11 @@
     <MESSAGE value="yeees" />
     <MESSAGE value="Now shows time stamp at end&#10;&#10;also fixed a bug where the capitalized letter function didnt work" />
     <MESSAGE value="Added a ThreadHandler and refactored the code to  handle Tasks. Made the split dictionary work as well. Though the program stops after loading in the passwords.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a ThreadHandler and refactored the code to  handle Tasks. Made the split dictionary work as well. Though the program stops after loading in the passwords.txt" />
+    <MESSAGE value="Added a chuck checker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a chuck checker" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/DistPassCracker/Program.cs</url>
-          <line>57</line>
-          <properties startOffset="1804" endOffset="1834" documentPath="$PROJECT_DIR$/DistPassCracker/Program.cs" />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
@@ -602,18 +449,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -623,13 +470,12 @@
         <state relative-caret-position="393">
           <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
           <folding>
-            <marker date="1488977592000" expanded="true" signature="6:209" ph="..." />
-            <marker date="1488977592000" expanded="true" signature="236:3392" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="256:3390" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="302:3384" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
-            <marker date="1488977592000" expanded="true" signature="1836:2504" ph="/* ThreadStart t = new ThreadStart(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-            <marker date="1488977592000" expanded="true" signature="2814:3372" ph="/* Task task1 = Task.Run(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
+            <marker date="1489137415000" expanded="true" signature="6:209" ph="..." />
+            <marker date="1489137415000" expanded="true" signature="236:3378" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="256:3376" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="302:3370" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
+            <marker date="1489137415000" expanded="true" signature="2482:3358" ph="/* int x = 0; ... */" />
           </folding>
         </state>
       </provider>
@@ -670,18 +516,18 @@
         <state relative-caret-position="841">
           <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="73" selection-end-column="11" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -691,18 +537,18 @@
         <state relative-caret-position="210">
           <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -712,18 +558,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -733,13 +579,12 @@
         <state relative-caret-position="-230">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488977592000" expanded="true" signature="6:209" ph="..." />
-            <marker date="1488977592000" expanded="true" signature="236:3392" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="256:3390" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="302:3384" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
-            <marker date="1488977592000" expanded="true" signature="1836:2504" ph="/* ThreadStart t = new ThreadStart(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-            <marker date="1488977592000" expanded="true" signature="2814:3372" ph="/* Task task1 = Task.Run(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
+            <marker date="1489137415000" expanded="true" signature="6:209" ph="..." />
+            <marker date="1489137415000" expanded="true" signature="236:3378" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="256:3376" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="302:3370" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
+            <marker date="1489137415000" expanded="true" signature="2482:3358" ph="/* int x = 0; ... */" />
           </folding>
         </state>
       </provider>
@@ -780,18 +625,18 @@
         <state relative-caret-position="212">
           <caret line="24" column="61" lean-forward="false" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -801,18 +646,18 @@
         <state relative-caret-position="210">
           <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -822,18 +667,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -874,13 +719,12 @@
         <state relative-caret-position="502">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1488977592000" expanded="true" signature="6:209" ph="..." />
-            <marker date="1488977592000" expanded="true" signature="236:3392" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="256:3390" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="302:3384" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
-            <marker date="1488977592000" expanded="true" signature="1836:2504" ph="/* ThreadStart t = new ThreadStart(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-            <marker date="1488977592000" expanded="true" signature="2814:3372" ph="/* Task task1 = Task.Run(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
+            <marker date="1489137415000" expanded="true" signature="6:209" ph="..." />
+            <marker date="1489137415000" expanded="true" signature="236:3378" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="256:3376" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="302:3370" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
+            <marker date="1489137415000" expanded="true" signature="2482:3358" ph="/* int x = 0; ... */" />
           </folding>
         </state>
       </provider>
@@ -890,18 +734,18 @@
         <state relative-caret-position="734">
           <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -911,18 +755,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -963,13 +807,12 @@
         <state relative-caret-position="901">
           <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
           <folding>
-            <marker date="1488977592000" expanded="true" signature="6:209" ph="..." />
-            <marker date="1488977592000" expanded="true" signature="236:3392" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="256:3390" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="302:3384" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
-            <marker date="1488977592000" expanded="true" signature="1836:2504" ph="/* ThreadStart t = new ThreadStart(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-            <marker date="1488977592000" expanded="true" signature="2814:3372" ph="/* Task task1 = Task.Run(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
+            <marker date="1489137415000" expanded="true" signature="6:209" ph="..." />
+            <marker date="1489137415000" expanded="true" signature="236:3378" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="256:3376" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="302:3370" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
+            <marker date="1489137415000" expanded="true" signature="2482:3358" ph="/* int x = 0; ... */" />
           </folding>
         </state>
       </provider>
@@ -979,18 +822,18 @@
         <state relative-caret-position="210">
           <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1000,18 +843,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1021,13 +864,12 @@
         <state relative-caret-position="393">
           <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
           <folding>
-            <marker date="1488977592000" expanded="true" signature="6:209" ph="..." />
-            <marker date="1488977592000" expanded="true" signature="236:3392" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="256:3390" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="302:3384" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
-            <marker date="1488977592000" expanded="true" signature="1836:2504" ph="/* ThreadStart t = new ThreadStart(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-            <marker date="1488977592000" expanded="true" signature="2814:3372" ph="/* Task task1 = Task.Run(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
+            <marker date="1489137415000" expanded="true" signature="6:209" ph="..." />
+            <marker date="1489137415000" expanded="true" signature="236:3378" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="256:3376" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="302:3370" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
+            <marker date="1489137415000" expanded="true" signature="2482:3358" ph="/* int x = 0; ... */" />
           </folding>
         </state>
       </provider>
@@ -1068,18 +910,18 @@
         <state relative-caret-position="841">
           <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="73" selection-end-column="11" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1089,18 +931,18 @@
         <state relative-caret-position="210">
           <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1110,18 +952,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1162,13 +1004,12 @@
         <state relative-caret-position="-230">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488977592000" expanded="true" signature="6:209" ph="..." />
-            <marker date="1488977592000" expanded="true" signature="236:3392" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="256:3390" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="302:3384" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
-            <marker date="1488977592000" expanded="true" signature="1836:2504" ph="/* ThreadStart t = new ThreadStart(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-            <marker date="1488977592000" expanded="true" signature="2814:3372" ph="/* Task task1 = Task.Run(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
+            <marker date="1489137415000" expanded="true" signature="6:209" ph="..." />
+            <marker date="1489137415000" expanded="true" signature="236:3378" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="256:3376" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="302:3370" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
+            <marker date="1489137415000" expanded="true" signature="2482:3358" ph="/* int x = 0; ... */" />
           </folding>
         </state>
       </provider>
@@ -1178,18 +1019,18 @@
         <state relative-caret-position="76">
           <caret line="12" column="92" lean-forward="false" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1199,18 +1040,18 @@
         <state relative-caret-position="210">
           <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1220,18 +1061,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1272,13 +1113,12 @@
         <state relative-caret-position="502">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <marker date="1488977592000" expanded="true" signature="6:209" ph="..." />
-            <marker date="1488977592000" expanded="true" signature="236:3392" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="256:3390" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="302:3384" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
-            <marker date="1488977592000" expanded="true" signature="1836:2504" ph="/* ThreadStart t = new ThreadStart(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-            <marker date="1488977592000" expanded="true" signature="2814:3372" ph="/* Task task1 = Task.Run(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
+            <marker date="1489137415000" expanded="true" signature="6:209" ph="..." />
+            <marker date="1489137415000" expanded="true" signature="236:3378" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="256:3376" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="302:3370" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
+            <marker date="1489137415000" expanded="true" signature="2482:3358" ph="/* int x = 0; ... */" />
           </folding>
         </state>
       </provider>
@@ -1288,18 +1128,18 @@
         <state relative-caret-position="734">
           <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1309,18 +1149,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1361,13 +1201,12 @@
         <state relative-caret-position="901">
           <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
           <folding>
-            <marker date="1488977592000" expanded="true" signature="6:209" ph="..." />
-            <marker date="1488977592000" expanded="true" signature="236:3392" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="256:3390" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="302:3384" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
-            <marker date="1488977592000" expanded="true" signature="1836:2504" ph="/* ThreadStart t = new ThreadStart(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-            <marker date="1488977592000" expanded="true" signature="2814:3372" ph="/* Task task1 = Task.Run(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
+            <marker date="1489137415000" expanded="true" signature="6:209" ph="..." />
+            <marker date="1489137415000" expanded="true" signature="236:3378" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="256:3376" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="302:3370" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
+            <marker date="1489137415000" expanded="true" signature="2482:3358" ph="/* int x = 0; ... */" />
           </folding>
         </state>
       </provider>
@@ -1377,18 +1216,18 @@
         <state relative-caret-position="210">
           <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1398,18 +1237,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1419,13 +1258,12 @@
         <state relative-caret-position="393">
           <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
           <folding>
-            <marker date="1488977592000" expanded="true" signature="6:209" ph="..." />
-            <marker date="1488977592000" expanded="true" signature="236:3392" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="256:3390" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="302:3384" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
-            <marker date="1488977592000" expanded="true" signature="1836:2504" ph="/* ThreadStart t = new ThreadStart(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-            <marker date="1488977592000" expanded="true" signature="2814:3372" ph="/* Task task1 = Task.Run(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
+            <marker date="1489137415000" expanded="true" signature="6:209" ph="..." />
+            <marker date="1489137415000" expanded="true" signature="236:3378" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="256:3376" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="302:3370" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
+            <marker date="1489137415000" expanded="true" signature="2482:3358" ph="/* int x = 0; ... */" />
           </folding>
         </state>
       </provider>
@@ -1466,18 +1304,18 @@
         <state relative-caret-position="841">
           <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="73" selection-end-column="11" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1487,18 +1325,18 @@
         <state relative-caret-position="210">
           <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1508,18 +1346,80 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../webster-dictionary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/ThreadHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1488891761000" expanded="true" signature="74:261" ph="{...}" />
+            <marker date="1488891761000" expanded="true" signature="121:194" ph="{...}" />
+            <marker date="1488891761000" expanded="true" signature="234:255" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/StringHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <marker date="1488882921000" expanded="true" signature="6:51" ph="..." />
+            <marker date="1488882921000" expanded="true" signature="120:1649" ph="{...}" />
+            <marker date="1488882921000" expanded="true" signature="253:312" ph="{...}" />
+            <marker date="1488882921000" expanded="true" signature="372:422" ph="{...}" />
+            <marker date="1488882921000" expanded="true" signature="432:648" ph="/// Capitalizes the inputtet string ... " />
+            <marker date="1488882921000" expanded="true" signature="700:1014" ph="{...}" />
+            <marker date="1488882921000" expanded="true" signature="1024:1237" ph="/// Reverses the inputtet string ... " />
+            <marker date="1488882921000" expanded="true" signature="1286:1643" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Model/DecryptedUserinfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488817965000" expanded="true" signature="77:712" ph="{...}" />
+            <marker date="1488817965000" expanded="true" signature="92:193" ph="/// Basic unectrypted version of the userinfo from file. ... " />
+            <marker date="1488817965000" expanded="true" signature="351:596" ph="{...}" />
+            <marker date="1488817965000" expanded="true" signature="639:706" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Model/EncryptedUserinfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488817965000" expanded="true" signature="77:928" ph="{...}" />
+            <marker date="1488817965000" expanded="true" signature="92:215" ph="/// Overall this is just a standard class. Made with the mvvm pattern in mind. ... " />
+            <marker date="1488817965000" expanded="true" signature="445:802" ph="{...}" />
+            <marker date="1488817965000" expanded="true" signature="845:922" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1542,48 +1442,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../webster-dictionary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/ThreadHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1488891761000" expanded="true" signature="34:263" ph="{...}" />
-            <marker date="1488891761000" expanded="true" signature="74:261" ph="{...}" />
-            <marker date="1488891761000" expanded="true" signature="121:194" ph="{...}" />
-            <marker date="1488891761000" expanded="true" signature="234:255" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/StringHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <marker date="1488882921000" expanded="true" signature="6:51" ph="..." />
-            <marker date="1488882921000" expanded="true" signature="87:1651" ph="{...}" />
-            <marker date="1488882921000" expanded="true" signature="120:1649" ph="{...}" />
-            <marker date="1488882921000" expanded="true" signature="253:312" ph="{...}" />
-            <marker date="1488882921000" expanded="true" signature="372:422" ph="{...}" />
-            <marker date="1488882921000" expanded="true" signature="432:648" ph="/// Capitalizes the inputtet string ... " />
-            <marker date="1488882921000" expanded="true" signature="700:1014" ph="{...}" />
-            <marker date="1488882921000" expanded="true" signature="1024:1237" ph="/// Reverses the inputtet string ... " />
-            <marker date="1488882921000" expanded="true" signature="1286:1643" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/CrackingHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="-293">
           <caret line="27" column="52" lean-forward="false" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
           <folding>
             <marker date="1488908775000" expanded="true" signature="8:166" ph="..." />
@@ -1612,67 +1473,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DistPassCracker/Model/DecryptedUserinfo.cs">
+    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="953">
+          <caret line="66" column="17" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
           <folding>
-            <marker date="1488817965000" expanded="true" signature="40:714" ph="{...}" />
-            <marker date="1488817965000" expanded="true" signature="77:712" ph="{...}" />
-            <marker date="1488817965000" expanded="true" signature="92:193" ph="/// Basic unectrypted version of the userinfo from file. ... " />
-            <marker date="1488817965000" expanded="true" signature="351:596" ph="{...}" />
-            <marker date="1488817965000" expanded="true" signature="639:706" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DistPassCracker/Model/EncryptedUserinfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1488817965000" expanded="true" signature="40:930" ph="{...}" />
-            <marker date="1488817965000" expanded="true" signature="77:928" ph="{...}" />
-            <marker date="1488817965000" expanded="true" signature="92:215" ph="/// Overall this is just a standard class. Made with the mvvm pattern in mind. ... " />
-            <marker date="1488817965000" expanded="true" signature="445:802" ph="{...}" />
-            <marker date="1488817965000" expanded="true" signature="845:922" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="7:150" ph="..." />
+            <marker date="1489136973000" expanded="true" signature="186:2459" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="223:2457" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
+            <marker date="1489136973000" expanded="true" signature="971:1390" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1059:1355" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1188:1292" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
+            <marker date="1489136973000" expanded="true" signature="1682:1919" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="1979:2451" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2161:2404" ph="{...}" />
+            <marker date="1489136973000" expanded="true" signature="2255:2390" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DistPassCracker/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="72" column="176" lean-forward="false" selection-start-line="72" selection-start-column="176" selection-end-line="72" selection-end-column="176" />
+        <state relative-caret-position="335">
+          <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
           <folding>
-            <marker date="1488977592000" expanded="true" signature="6:209" ph="..." />
-            <marker date="1488977592000" expanded="true" signature="236:3392" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="256:3390" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="302:3384" ph="{...}" />
-            <marker date="1488977592000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
-            <marker date="1488977592000" expanded="true" signature="1836:2504" ph="/* ThreadStart t = new ThreadStart(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-            <marker date="1488977592000" expanded="true" signature="2814:3372" ph="/* Task task1 = Task.Run(() =&gt; CrackingHandler.RunCracking(DictionaryHandler.chunckCollection[0])); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DistPassCracker/Handlers/DictionaryHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="54" column="58" lean-forward="false" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
-          <folding>
-            <marker date="1488894135000" expanded="true" signature="7:150" ph="..." />
-            <marker date="1488894135000" expanded="true" signature="186:2505" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="223:2503" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="616:898" ph="/// Splits a list into 5 lists. You access these by calling DictionaryHandler.PartialListOne/Two/Three and so on. ... " />
-            <marker date="1488894135000" expanded="true" signature="971:1390" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1059:1355" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1188:1292" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1399:1621" ph="/// Finds all entries with the letter specified in the parameter ... " />
-            <marker date="1488894135000" expanded="true" signature="1682:1919" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="1979:2497" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2161:2450" ph="{...}" />
-            <marker date="1488894135000" expanded="true" signature="2255:2390" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="6:209" ph="..." />
+            <marker date="1489137415000" expanded="true" signature="236:3378" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="256:3376" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="302:3370" ph="{...}" />
+            <marker date="1489137415000" expanded="true" signature="325:1790" ph="/* Threading example ... */" />
+            <marker date="1489137415000" expanded="true" signature="2482:3358" ph="/* int x = 0; ... */" />
           </folding>
         </state>
       </provider>
